@@ -1,12 +1,9 @@
 'use strict'
 
-var isArray = require('lodash.isarray')
-var isNumber = require('lodash.isnumber')
-
 module.exports = function (input, opts) {
   opts = opts || {}
 
-  if (!isArray(input) || input.length !== 2 || !isNumber(input[0]) || !isNumber(input[1])) {
+  if (!Array.isArray(input) || input.length !== 2 || !Number.isFinite(input[0]) || !Number.isFinite(input[1])) {
     return false
   }
 
