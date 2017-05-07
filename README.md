@@ -1,4 +1,4 @@
-# is-coordinates [![Build Status](https://travis-ci.org/Zertz/is-coordinates.svg?branch=master)](https://travis-ci.org/Zertz/is-coordinates)
+# is-coordinates [![Build Status](https://travis-ci.org/Zertz/is-coordinates.svg?branch=master)](https://travis-ci.org/Zertz/is-coordinates) [![npm version](https://badge.fury.io/js/is-coordinates.svg)](https://badge.fury.io/js/is-coordinates)
 
 > Determines if an array contains a valid set of numbers for representing latitude and longitude coordinates
 
