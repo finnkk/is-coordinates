@@ -1,6 +1,6 @@
 {
   "name": "is-coordinates",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Determines if an array contains a valid set of numbers for representing latitude and longitude coordinates",
   "license": "MIT",
   "repository": {
