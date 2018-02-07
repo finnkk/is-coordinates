@@ -18,7 +18,7 @@ test('[45.266486, -72.147989], { validate: false }', (t) => {
 })
 
 test('[360, 360]', (t) => {
-  t.is(isCoordinates([360, 360]), true)
+  t.is(isCoordinates([360, 360]), false)
 })
 
 test('[360, 360], { validate: true }', (t) => {

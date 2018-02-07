@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = function (input, opts) {
-  opts = opts || {}
+  opts = opts || {validate: true}
 
   if (!Array.isArray(input) || input.length !== 2 || !Number.isFinite(input[0]) || !Number.isFinite(input[1])) {
     return false

@@ -38,7 +38,7 @@ Coordinates.
 ##### validate
 
 Type: `boolean`<br>
-Default: `false`
+Default: `true`
 
 Validate range (-180/180, -90/90)
 
